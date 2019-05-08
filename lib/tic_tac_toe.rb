@@ -132,7 +132,6 @@ class TicTacToe
     draw?
     9.times do |x|
       unless over? 
-        draw?
         turn
       end
     end

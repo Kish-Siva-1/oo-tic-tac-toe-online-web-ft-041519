@@ -130,6 +130,7 @@ class TicTacToe
     
     3.times do |x|
       unless over? 
+        draw?
         turn
         if won? != nil
           winner

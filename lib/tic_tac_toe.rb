@@ -148,7 +148,7 @@ class TicTacToe
     end
     
     if draw? 
-      print "Congratulations #{winner}!"
+      puts "Cat's Game!"
     end
     
   end 

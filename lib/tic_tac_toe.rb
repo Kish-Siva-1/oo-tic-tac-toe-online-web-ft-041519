@@ -127,7 +127,7 @@ class TicTacToe
   end 
   
   def play
-    
+    draw?
     3.times do |x|
       unless over? 
         draw?
@@ -138,7 +138,6 @@ class TicTacToe
         if draw?
           "It was a draw"
         end 
-        draw? 
       end
     end 
     

@@ -128,7 +128,6 @@ class TicTacToe
   
   def play
     
-    3.times do |x|
       unless over? 
         turn
         if won? != nil
@@ -138,7 +137,6 @@ class TicTacToe
           "It was a draw"
         end 
       end
-    end 
     
   end 
   

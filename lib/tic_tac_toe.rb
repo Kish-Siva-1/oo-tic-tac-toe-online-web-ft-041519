@@ -120,10 +120,10 @@ class TicTacToe
   
   def winner 
     binding.pry
-    if @board[won?[1]] == " " 
-      nil
-    else 
+    if won? != nil 
       @board[won?[1]]
+    else 
+      nil
     end 
   end 
   

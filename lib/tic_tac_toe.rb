@@ -63,7 +63,7 @@ class TicTacToe
           temp = []
           x.each do |y|
             temp << @board[y]
-            if temp.uniq.size == 1 &&  temp.size == 3
+            if temp.uniq.size == 1 &&  temp.size == 3 && temp.include?(" ") == false
               won = temp
               element = x
               break

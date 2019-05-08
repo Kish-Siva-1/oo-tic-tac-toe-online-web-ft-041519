@@ -135,6 +135,7 @@ class TicTacToe
     elsif draw? 
       "It was a draw"
     end 
+    over?
   end 
   
 end 

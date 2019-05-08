@@ -136,6 +136,7 @@ class TicTacToe
       "It was a draw"
     end 
     over?
+    over? 
   end 
   
 end 

@@ -127,16 +127,18 @@ class TicTacToe
   end 
   
   def play
-    unless over? 
-      turn
-    end
-    if won? != nil
-      winner
-    elsif draw? 
-      "It was a draw"
+    
+    3.times do |x|
+      unless over? 
+        turn
+      end
+      if won? != nil
+        winner
+      elsif draw? 
+        "It was a draw"
+      end 
     end 
-    over?
-    over? 
+    
   end 
   
 end 

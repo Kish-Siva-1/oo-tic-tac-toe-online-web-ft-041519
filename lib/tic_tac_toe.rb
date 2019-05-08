@@ -131,12 +131,12 @@ class TicTacToe
     3.times do |x|
       unless over? 
         turn
+        if won? != nil
+          winner
+        elsif draw? 
+          "It was a draw"
+        end 
       end
-      if won? != nil
-        winner
-      elsif draw? 
-        "It was a draw"
-      end 
     end 
     
   end 

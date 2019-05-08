@@ -137,6 +137,7 @@ class TicTacToe
         if draw?
           "It was a draw"
         end 
+        draw? 
       end
     end 
     

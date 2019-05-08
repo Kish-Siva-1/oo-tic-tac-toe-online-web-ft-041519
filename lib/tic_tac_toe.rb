@@ -134,6 +134,7 @@ class TicTacToe
       unless over? 
         draw?
         turn
+        puts winner
         if won? != nil
           puts "Congratulations #{winner}!"
         end  

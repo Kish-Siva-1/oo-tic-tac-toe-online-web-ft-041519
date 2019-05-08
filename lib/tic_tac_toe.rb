@@ -130,16 +130,10 @@ class TicTacToe
     draw?
     draw?
     draw?
-    3.times do |x|
+    9.times do |x|
       unless over? 
         draw?
         turn
-        if winner != nil
-          puts "Congratulations #{winner}!"
-        end  
-        if draw?
-          "It was a draw"
-        end 
       end
     end
     

@@ -127,9 +127,9 @@ class TicTacToe
   end 
   
   def play
-    draw?
-    draw?
-    draw?
+    #draw?
+    #draw?
+    #draw?
     9.times do |x|
       unless over? 
         turn

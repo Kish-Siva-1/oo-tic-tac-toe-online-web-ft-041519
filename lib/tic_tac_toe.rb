@@ -141,7 +141,11 @@ class TicTacToe
           "It was a draw"
         end 
       end
-    end 
+    end
+    
+    if winner != nil
+          puts "Congratulations #{winner}!"
+        end
     
   end 
   

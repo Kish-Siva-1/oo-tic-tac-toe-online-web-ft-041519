@@ -127,8 +127,14 @@ class TicTacToe
   end 
   
   def play
-    turn
-    over?
+    unless over? 
+      turn
+    end
+    if won? != nil
+      winner
+    elsif draw? 
+      "It was a draw"
+    end 
   end 
   
 end 

@@ -80,7 +80,7 @@ describe './lib/tic_tac_toe.rb' do
 
         game.play
       end
-binding.pry
+
       it 'congratulates the winner X' do
         game = TicTacToe.new
         board = ["X", "X", "X", "O", "O", " ", " ", " ", " "]

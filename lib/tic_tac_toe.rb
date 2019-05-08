@@ -127,7 +127,7 @@ class TicTacToe
   end 
   
   def play
-    unless 
+    turn
   end 
   
 end 

@@ -133,10 +133,8 @@ class TicTacToe
         turn
         if won? != nil
           winner
-          break
-        elsif draw? 
+        elsif draw?
           "It was a draw"
-          break 
         end 
       end
     end 

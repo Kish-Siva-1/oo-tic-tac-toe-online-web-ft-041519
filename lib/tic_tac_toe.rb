@@ -135,7 +135,7 @@ class TicTacToe
         draw?
         turn
         if won? != nil
-          puts "Congratulations!winner
+          puts "Congratulations #{winner}!"
         end  
         if draw?
           "It was a draw"

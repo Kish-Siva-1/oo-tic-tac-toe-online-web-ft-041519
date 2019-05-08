@@ -127,9 +127,6 @@ class TicTacToe
   end 
   
   def play
-    #draw?
-    #draw?
-    #draw?
     9.times do |x|
       unless over? 
         turn
@@ -138,9 +135,7 @@ class TicTacToe
     
     if winner != nil
       puts "Congratulations #{winner}!"
-    end
-    
-    if draw? 
+    elsif draw? 
       puts "Cat's Game!"
     end
     

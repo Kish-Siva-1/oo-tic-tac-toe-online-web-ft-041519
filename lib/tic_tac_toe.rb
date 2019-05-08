@@ -134,7 +134,6 @@ class TicTacToe
       unless over? 
         draw?
         turn
-        binding.pry
         if won? != nil
           puts "Congratulations #{winner}!"
         end  

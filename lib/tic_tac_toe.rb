@@ -144,8 +144,12 @@ class TicTacToe
     end
     
     if winner != nil
-          puts "Congratulations #{winner}!"
-        end
+      puts "Congratulations #{winner}!"
+    end
+    
+    if draw? != nil
+      puts "Congratulations #{winner}!"
+    end
     
   end 
   
